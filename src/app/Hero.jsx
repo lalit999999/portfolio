@@ -15,8 +15,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-linear-to-br
- from-blue-50 to-indigo-100 pt-16"
+      className="min-h-screen flex items-center justify-center bg-[#bdddfc] pt-16"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
@@ -30,8 +29,8 @@ export function Hero() {
             Hi, I'm <span className="text-blue-600">Lalit Gujar</span>
           </h1>
 
-          <h2 className="text-3xl md:text-4xl text-gray-700 mb-6">
-            Frontend Developer
+          <h2 className="text-3xl font-bold md:text-4xl text-gray-700 mb-6">
+            FULL STACK Developer
           </h2>
 
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10">

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ButtonsSkill from "../button/button";
 
 export function Skills() {
   const [isVisible, setIsVisible] = useState(false);
@@ -10,7 +11,7 @@ export function Skills() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.3 },
     );
 
     const section = document.querySelector("#skills");
@@ -22,20 +23,20 @@ export function Skills() {
   }, []);
 
   const skills = [
-    { name: "Java", level: 70, category: "languages" },
-    { name: "Python", level: 70, category: "languages" },
-    { name: "C++", level: 70, category: "languages" },
-    { name: "C", level: 70, category: "languages" },
-    { name: "JavaScript", level: 70, category: "languages" },
-    { name: "React", level: 90, category: "Frontend" },
-    { name: "Html5", level: 85, category: "Frontend" },
-    { name: "CSS", level: 85, category: "Frontend" },
+    { name: "Java", category: "languages" },
+    { name: "Python", category: "languages" },
+    { name: "C++", category: "languages" },
+    { name: "C", category: "languages" },
+    { name: "JavaScript", category: "languages" },
+    { name: "React", category: "Frontend" },
+    { name: "Html5", category: "Frontend" },
+    { name: "CSS", category: "Frontend" },
     // { name: "CSS", level: 85, category: "Frontend" },
-    { name: "Node.js", level: 88, category: "Backend" },
-    { name: "Python", level: 80, category: "Backend" },
-    { name: "Oracle", level: 82, category: "Database" },
-    { name: "MySQL", level: 82, category: "Database" },
-    // { name: "MongoDB", level: 78, category: "Database" },
+    { name: "Node.js", category: "Backend" },
+    { name: "Python", category: "Backend" },
+    { name: "Oracle", category: "Database" },
+    { name: "MySQL", category: "Database" },
+    { name: "MongoDB", category: "Database" },
   ];
 
   const categories = [...new Set(skills.map((skill) => skill.category))];
@@ -52,23 +53,15 @@ export function Skills() {
           {categories.map((category) => (
             <div key={category} className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="mb-6 text-xl text-gray-900">{category}</h3>
-              <div className="space-y-4">
+              <div className="space-y-4 ">
                 {skills
                   .filter((skill) => skill.category === category)
                   .map((skill) => (
-                    <div key={skill.name}>
-                      <div className="flex justify-between mb-2">
-                        <span className="text-gray-700">{skill.name}</span>
-                        <span className="text-gray-500">{skill.level}%</span>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
-                        <div
-                          className="bg-blue-600 h-full rounded-full transition-all duration-1000 ease-out"
-                          style={{
-                            width: isVisible ? `${skill.level}%` : "0%",
-                          }}
-                        />
-                      </div>
+                    <div
+                      className="flex flex-wrap justify-center item-center"
+                      key={skill.name}
+                    >
+                      <ButtonsSkill text={skill.name} />
                     </div>
                   ))}
               </div>
