@@ -2,6 +2,8 @@ import { Section } from "../ui/Section";
 import { Card } from "../ui/Card";
 import { portfolioData } from "../../data/portfolio-data";
 import { GraduationCap } from "lucide-react";
+import React from "react";
+
 
 export function Education() {
   const { education } = portfolioData;

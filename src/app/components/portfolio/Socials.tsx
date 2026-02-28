@@ -2,6 +2,7 @@ import { Section } from "../ui/Section";
 import { Card } from "../ui/Card";
 import { portfolioData } from "../../data/portfolio-data";
 import { Share2 } from "lucide-react";
+import React from "react";
 
 export function Socials() {
   const { socials } = portfolioData;
@@ -14,14 +15,14 @@ export function Socials() {
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
         {socials.map((social, index) => (
-          <a 
-            key={index} 
-            href={social.url} 
-            target="_blank" 
+          <a
+            key={index}
+            href={social.url}
+            target="_blank"
             rel="noopener noreferrer"
             className="block h-full"
           >
-            <Card 
+            <Card
               delay={index * 0.1}
               className="h-full flex flex-col items-center justify-center gap-4 hover:bg-zinc-50 dark:hover:bg-zinc-800/80 transition-all duration-300 aspect-square group"
             >

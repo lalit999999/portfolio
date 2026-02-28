@@ -2,6 +2,8 @@ import { Section } from "../ui/Section";
 import { portfolioData } from "../../data/portfolio-data";
 import { BookOpen, Sparkles } from "lucide-react";
 import { Card } from "../ui/Card";
+import React from "react";
+
 
 export function Learning() {
   const { learning } = portfolioData;

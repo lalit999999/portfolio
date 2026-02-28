@@ -2,6 +2,7 @@ import { Section } from "../ui/Section";
 import { Badge } from "../ui/Badge";
 import { portfolioData } from "../../data/portfolio-data";
 import { Cpu } from "lucide-react";
+import React from "react";
 
 export function Skills() {
   const { skills } = portfolioData;
@@ -20,8 +21,8 @@ export function Skills() {
             </h3>
             <div className="flex flex-wrap gap-4">
               {category.items.map((skill, index) => (
-                <Badge 
-                  key={index} 
+                <Badge
+                  key={index}
                   icon={<skill.icon className="w-4 h-4" />}
                   delay={index * 0.05 + catIndex * 0.1}
                 >

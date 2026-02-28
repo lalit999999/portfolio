@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { ArrowDown, Download } from "lucide-react";
 import { portfolioData } from "../../data/portfolio-data";
 import { ImageWithFallback } from "../figma/ImageWithFallback";
+import React from "react";
 
 export function Hero() {
   const { name, tagline, image, resumeLink } = portfolioData.personalInfo;
