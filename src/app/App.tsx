@@ -6,6 +6,7 @@ import { Education } from "./components/portfolio/Education";
 import { Skills } from "./components/portfolio/Skills";
 import { Learning } from "./components/portfolio/Learning";
 import { Projects } from "./components/portfolio/Projects";
+import { Certifications } from "./components/portfolio/Certifications";
 import { Socials } from "./components/portfolio/Socials";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
             <Skills />
             <Learning />
             <Projects />
+            <Certifications />
             <Socials />
           </div>
         </main>

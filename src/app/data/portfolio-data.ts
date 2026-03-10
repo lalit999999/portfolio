@@ -158,6 +158,42 @@ export const portfolioData = {
       live: "https://l-s-p.lalitgurjar.in/",
     },
   ],
+  certifications: [
+    {
+      id: 1,
+      title: "OCI AI Foundations Associate (2025)",
+      issuer: "Oracle",
+      date: "sept 2025",
+      credentialUrl:
+        "https://mylearn.oracle.com/ou/learning-path/become-a-oci-ai-foundations-associate-2025/147781",
+      image:
+        "https://res.cloudinary.com/dsmyka9cr/image/upload/v1773149399/oraclecirtificate_elmzum.jpg",
+      skills: ["Basic ML", "AI"],
+      color: "emerald",
+    },
+    // {
+    //   id: 2,
+    //   title: "Full Stack Web Development",
+    //   issuer: "Udemy",
+    //   date: "Feb 2025",
+    //   credentialUrl: "#",
+    //   image:
+    //     "https://res.cloudinary.com/dsmyka9cr/image/upload/v1/certs/fullstack-cert.jpg",
+    //   skills: ["React", "Node.js", "MongoDB", "Express.js"],
+    //   color: "blue",
+    // },
+    // {
+    //   id: 3,
+    //   title: "SQL and Databases",
+    //   issuer: "Coursera",
+    //   date: "Mar 2025",
+    //   credentialUrl: "#",
+    //   image:
+    //     "https://res.cloudinary.com/dsmyka9cr/image/upload/v1/certs/sql-cert.jpg",
+    //   skills: ["SQL", "MySQL", "Database Design"],
+    //   color: "violet",
+    // },
+  ],
   socials: [
     { name: "GitHub", url: "https://github.com/lalit999999", icon: Github },
     {
@@ -166,10 +202,6 @@ export const portfolioData = {
       icon: Linkedin,
     },
     { name: "Twitter", url: "https://x.com/lalit7363", icon: Twitter },
-    {
-      name: "Blog",
-      url: "https://hashnode.com/@lalitgujjar",
-      icon: Hash,
-    },
+    { name: "Blog", url: "https://hashnode.com/@lalitgujjar", icon: Hash },
   ],
 };
