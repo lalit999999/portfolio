@@ -134,7 +134,7 @@ export const portfolioData = {
         "Developed a responsive front-end web application for an educational platform aimed at supporting the student community. The project was built using React for creating dynamic user interfaces and Vite as the fast build tool for optimized development and performance.",
       tech: ["React", "Vite", "JavaScript", "HTML5", "CSS3", "ESLint"],
       github: "https://github.com/lalit999999/Edushare-",
-      live: "",
+      live: "https://edushare.mewithblender.shop/",
     },
     {
       id: 2,
