@@ -40,7 +40,15 @@ export function Projects() {
                     <Github className="w-5 h-5" />
                   </a>
                   {/* Optional Live Demo Link if available */}
-                  {/* <a href="#" className="..." ><ExternalLink /></a> */}
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-2 bg-zinc-100 dark:bg-zinc-800 rounded-full hover:bg-emerald-100 dark:hover:bg-emerald-900/30 text-zinc-600 dark:text-zinc-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+                    aria-label="View Source"
+                  >
+                    <ExternalLink className="w-5 h-5" />
+                  </a>
                 </div>
               </div>
 

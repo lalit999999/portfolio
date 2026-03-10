@@ -10,6 +10,8 @@ import {
   Terminal,
   Cpu,
   FileCode2,
+  Hash,
+  Wifi,
 } from "lucide-react";
 
 export const portfolioData = {
@@ -21,7 +23,7 @@ export const portfolioData = {
     image:
       "https://res.cloudinary.com/dsmyka9cr/image/upload/v1770302058/My%20Brand/p_photho_zbnwwh.jpg",
     resumeLink:
-      "https://res.cloudinary.com/dsmyka9cr/image/upload/v1772289982/lalit_resume_wwbyyj.pdf",
+      "https://res.cloudinary.com/dsmyka9cr/image/upload/v1773147070/NIT_Patna_Resume_Template_v2_1-1_rgveom.pdf",
   },
   education: [
     {
@@ -76,10 +78,13 @@ export const portfolioData = {
       ],
     },
     {
-      category: "Backend",
+      category: "Backend & API",
       items: [
         { name: "Node.js", icon: Server },
         { name: "Express", icon: Server },
+        { name: "Postman", icon: Server },
+        { name: "REST API", icon: Server },
+        // Postman ,REST api
         // { name: "Python", icon: Terminal },
       ],
     },
@@ -88,7 +93,6 @@ export const portfolioData = {
       items: [
         { name: "MongoDB", icon: Database },
         { name: "MySQL", icon: Database },
-        { name: "Oracle", icon: Database },
       ],
     },
     {
@@ -121,6 +125,7 @@ export const portfolioData = {
       ],
       //
       github: "https://github.com/lalit999999/miniyoutube_backend",
+      live: "https://github.com/lalit999999/miniyoutube_backend",
     },
     {
       id: 2,
@@ -129,6 +134,28 @@ export const portfolioData = {
         "Developed a responsive front-end web application for an educational platform aimed at supporting the student community. The project was built using React for creating dynamic user interfaces and Vite as the fast build tool for optimized development and performance.",
       tech: ["React", "Vite", "JavaScript", "HTML5", "CSS3", "ESLint"],
       github: "https://github.com/lalit999999/Edushare-",
+      live: "",
+    },
+    {
+      id: 2,
+      title: "Local Service Booking Platform (Full stack application)",
+      description:
+        "Built a MERN-based service marketplace platform with RESTful APIs for services, bookings, categories,and reviews.Implemented JWT authentication and role-based authorization for Customer, Provider, and Admin access ,Designed a booking lifecycle system (Requested → Confirmed → In-progress → Completed → Cancelled).Structured MongoDB schemas using Mongoose for scalable data management and CRUD operations.Integrated image uploads using Multer and Cloudinary for profile and service-related images.",
+      tech: [
+        "React",
+        "Vite",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Axios",
+        "Cloudinary",
+        "Multer",
+        "CORS",
+        "Dotenv",
+      ],
+      github: "https://github.com/lalit999999/service_provider_frontend",
+      live: "https://l-s-p.lalitgurjar.in/",
     },
   ],
   socials: [
@@ -140,9 +167,9 @@ export const portfolioData = {
     },
     { name: "Twitter", url: "https://x.com/lalit7363", icon: Twitter },
     {
-      name: "Instagram",
-      url: "https://www.instagram.com/joker_style_l",
-      icon: Instagram,
+      name: "Blog",
+      url: "https://hashnode.com/@lalitgujjar",
+      icon: Hash,
     },
   ],
 };
