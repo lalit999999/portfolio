@@ -7,6 +7,7 @@ import { BlogsPage } from "./pages/BlogsPage";
 import { GamesPageRoute } from "./pages/GamesPageRoute";
 import { SkillsPage } from "./pages/SkillsPage";
 import { CertificationsPage } from "./pages/CertificationsPage";
+import TeaGardenGame from "./games/CherryBlossom";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="/games" element={<GamesPageRoute />} />
             <Route path="/skills" element={<SkillsPage />} />
             <Route path="/certifications" element={<CertificationsPage />} />
+            <Route path="/games/TeaGardenGame" element={<TeaGardenGame />} />
           </Route>
         </Routes>
       </BrowserRouter>

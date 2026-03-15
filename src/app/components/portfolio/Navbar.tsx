@@ -17,7 +17,7 @@ export function Navbar() {
   const navItems: NavItem[] = [
     { label: "Projects", href: "/projects" },
     { label: "Blogs", href: "/blogs" },
-    // { label: "3D Games", href: "/games" },
+    { label: "3D Games", href: "/games" },
     { label: "Skills", href: "/skills" },
     { label: "Certifications", href: "/certifications" },
   ];

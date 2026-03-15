@@ -1,0 +1,13 @@
+add . dark / light mode feature when dark mode is on then on the  all shop lights and footpath light on and enviorment will be dark.
+
+
+
+add buttons for mobile users
+
+make seperate data file where save defalut coins and glossaries are stored.
+
+add some big hording in the corner where my all profile will show for marketing
+
+put some things in the shops
+
+add collision effect when character collise to the obstable its not go throught this.

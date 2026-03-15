@@ -21,75 +21,75 @@ const games: Game[] = [
     title: "3D Maze Explorer",
     description:
       "An immersive 3D maze game built with Three.js. Navigate through complex mazes, collect power-ups, and compete for the best times.",
-    technologies: ["Three.js", "React", "Vite", "WebGL"],
+    technologies: ["Three.js", "React", "Vite"],
     rating: 4.8,
     image:
-      "https://images.unsplash.com/photo-1538481143081-9849f7152e44?w=500&h=300&fit=crop",
-    github: "https://github.com",
-    live: "https://github.com",
+      "https://res.cloudinary.com/dsmyka9cr/image/upload/v1773595264/TeaGardenGame-43-15_irkup0.png",
+    github: "https://github.com/lalit999999",
+    live: "/games/TeaGardenGame",
     isFeatured: true,
   },
-  {
-    id: 2,
-    title: "3D Space Shooter",
-    description:
-      "Battle enemies in zero gravity. A fast-paced 3D space shooter with particle effects and realistic physics.",
-    technologies: ["Babylon.js", "TypeScript", "WebGL"],
-    rating: 4.6,
-    image:
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&h=300&fit=crop",
-    github: "https://github.com",
-    live: "https://github.com",
-  },
-  {
-    id: 3,
-    title: "Procedural Planet Generator",
-    description:
-      "Generate infinite procedurally-created planets with unique terrain, atmosphere, and features. Explore and discover.",
-    technologies: ["Three.js", "Perlin Noise", "WebGL"],
-    rating: 4.7,
-    image:
-      "https://images.unsplash.com/photo-1462332420958-a05d1e7413e3?w=500&h=300&fit=crop",
-    github: "https://github.com",
-    live: "https://github.com",
-    isFeatured: true,
-  },
-  {
-    id: 4,
-    title: "3D Card Flip Memory Game",
-    description:
-      "A modern take on the classic memory game with beautiful 3D card flip animations and smooth transitions.",
-    technologies: ["Three.js", "React", "CSS3 Transforms"],
-    rating: 4.5,
-    image:
-      "https://images.unsplash.com/photo-1559056169-641ef80759db?w=500&h=300&fit=crop",
-    github: "https://github.com",
-    live: "https://github.com",
-  },
-  {
-    id: 5,
-    title: "3D Pyramid Solver",
-    description:
-      "An interactive 3D visualization of AI solving pyramid puzzles. Watch algorithms come to life in three dimensions.",
-    technologies: ["Three.js", "AI Algorithms", "WebGL"],
-    rating: 4.4,
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-    github: "https://github.com",
-    live: "https://github.com",
-  },
-  {
-    id: 6,
-    title: "3D Falling Blocks",
-    description:
-      "A 3D interpretation of the classic Tetris game. Stack blocks, clear lines, and reach the highest score.",
-    technologies: ["Babylon.js", "React", "Physics Engine"],
-    rating: 4.5,
-    image:
-      "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=500&h=300&fit=crop",
-    github: "https://github.com",
-    live: "https://github.com",
-  },
+  //   {
+  //     id: 2,
+  //     title: "3D Space Shooter",
+  //     description:
+  //       "Battle enemies in zero gravity. A fast-paced 3D space shooter with particle effects and realistic physics.",
+  //     technologies: ["Babylon.js", "TypeScript", "WebGL"],
+  //     rating: 4.6,
+  //     image:
+  //       "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&h=300&fit=crop",
+  //     github: "https://github.com",
+  //     live: "https://github.com",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Procedural Planet Generator",
+  //     description:
+  //       "Generate infinite procedurally-created planets with unique terrain, atmosphere, and features. Explore and discover.",
+  //     technologies: ["Three.js", "Perlin Noise", "WebGL"],
+  //     rating: 4.7,
+  //     image:
+  //       "https://images.unsplash.com/photo-1462332420958-a05d1e7413e3?w=500&h=300&fit=crop",
+  //     github: "https://github.com",
+  //     live: "https://github.com",
+  //     isFeatured: true,
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "3D Card Flip Memory Game",
+  //     description:
+  //       "A modern take on the classic memory game with beautiful 3D card flip animations and smooth transitions.",
+  //     technologies: ["Three.js", "React", "CSS3 Transforms"],
+  //     rating: 4.5,
+  //     image:
+  //       "https://images.unsplash.com/photo-1559056169-641ef80759db?w=500&h=300&fit=crop",
+  //     github: "https://github.com",
+  //     live: "https://github.com",
+  //   },
+  //   {
+  //     id: 5,
+  //     title: "3D Pyramid Solver",
+  //     description:
+  //       "An interactive 3D visualization of AI solving pyramid puzzles. Watch algorithms come to life in three dimensions.",
+  //     technologies: ["Three.js", "AI Algorithms", "WebGL"],
+  //     rating: 4.4,
+  //     image:
+  //       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+  //     github: "https://github.com",
+  //     live: "https://github.com",
+  //   },
+  //   {
+  //     id: 6,
+  //     title: "3D Falling Blocks",
+  //     description:
+  //       "A 3D interpretation of the classic Tetris game. Stack blocks, clear lines, and reach the highest score.",
+  //     technologies: ["Babylon.js", "React", "Physics Engine"],
+  //     rating: 4.5,
+  //     image:
+  //       "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?w=500&h=300&fit=crop",
+  //     github: "https://github.com",
+  //     live: "https://github.com",
+  //   },
 ];
 
 export function GamesPage() {
