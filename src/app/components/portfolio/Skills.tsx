@@ -8,7 +8,7 @@ export function Skills() {
   const { skills } = portfolioData;
 
   return (
-    <Section className="container mx-auto px-6 md:px-12 max-w-4xl">
+    <Section className="container mx-auto max-w-4xl scroll-mt-32 px-6 md:px-12">
       <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-zinc-900 dark:text-zinc-100 flex items-center justify-center gap-3">
         <Cpu className="w-8 h-8 text-indigo-500" />
         Technical Skills

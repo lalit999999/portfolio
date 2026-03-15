@@ -8,7 +8,7 @@ export function Hero() {
   const { name, tagline, image, resumeLink } = portfolioData.personalInfo;
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 relative overflow-hidden">
+    <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 pt-32 text-center md:pt-28">
       {/* Background Gradient */}
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-100 via-white to-white dark:from-blue-900/20 dark:via-zinc-950 dark:to-zinc-950 opacity-70" />
 
@@ -22,6 +22,7 @@ export function Hero() {
           <ImageWithFallback
             src={image}
             alt={name}
+            draggable="false"
             className="w-full h-full object-cover"
           />
         </div>
