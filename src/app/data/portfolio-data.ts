@@ -17,7 +17,8 @@ import {
 export const portfolioData = {
   personalInfo: {
     name: "Lalit Gurjar",
-    tagline: "Full Stack Developer | UI/UX Enthusiast ",
+    tagline:
+      "Full Stack Developer | Node js guy which build scalable solution ",
     description:
       "Hi! I’m Lalit, a Student in NIT Patna. I have a passion for building web applications and love Reading articles and books. My approach combines technical expertise with creative problem-solving to deliver exceptional results.",
     image:
